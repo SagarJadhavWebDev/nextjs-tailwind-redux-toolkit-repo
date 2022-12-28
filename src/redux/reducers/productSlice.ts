@@ -1,5 +1,4 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { RootState } from "redux/store";
+import { createSlice } from "@reduxjs/toolkit";
 
 export interface ProductData {
   price: string;

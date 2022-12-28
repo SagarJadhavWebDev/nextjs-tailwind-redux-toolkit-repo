@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import productSlice, { ProductData, ProductSlice } from "./reducers/productSlice";
+import  { ProductData, ProductSlice } from "./reducers/productSlice";
 import { userData, UserSlice } from "./reducers/userSlice";
 export interface ApplicationState {
   user: userData;

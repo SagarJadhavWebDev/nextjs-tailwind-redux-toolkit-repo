@@ -1,6 +1,4 @@
 import Head from "next/head";
-import { setUser } from "redux/reducers/userSlice";
-import { addProduct } from "redux/reducers/productSlice";
 const Home = () => {
   return (
     <>
