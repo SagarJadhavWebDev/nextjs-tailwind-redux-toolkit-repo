@@ -5,12 +5,13 @@
       "@/components/*": ["components/*"],
       "@/constants/*": ["constants/*"],
       "@/hoc/*": ["hoc/*"],
+      "@/hooks/*": ["hooks/*"],
       "@/pages/*": ["pages/*"],
       "@/screens/*": ["screens/*"],
       "@/styles/*": ["styles/*"],
       "@/utils/*": ["utils/*"],
       "@/assets/*": ["assets/*"],
-      "@/reducers/*": ["reducers"]
+      "@/redux/*": ["redux"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -28,11 +29,6 @@
     "jsx": "preserve"
   },
 
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "src/utils/getSvgByName.js"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
